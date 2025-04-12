@@ -46,10 +46,10 @@ scanf("%d",&PontosTuristicos2);
 
 //Inclusão de calculos:
 Densidade1 = Populacao1 / Area1;
-PIBpercapita1 = PIB1 *1000000000 / Populacao1;
+PIBpercapita1 = PIB1 / Populacao1;
 
 Densidade2 = Populacao2 / Area2;
-PIBpercapita2 = PIB2 *1000000000 / Populacao2;
+PIBpercapita2 = PIB2 / Populacao2;
 
 
 // Saída de dados:
