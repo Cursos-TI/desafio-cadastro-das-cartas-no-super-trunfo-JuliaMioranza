@@ -33,7 +33,6 @@ printf("Informe somente uma letra de um Estado: \n");
 scanf(" %c",&Estado2);
 printf("Digite o código da sua carta (Ex: B02): \n");
 scanf("%s",Codigo2);
-printf("Digite o nome da cidade: \n");
 printf("Digite o nome da cidade (sem espaços): \n");
 scanf("%s",Cidade2);
 printf("Informa a população da cidade: \n");
@@ -86,7 +85,7 @@ printf("População: Carta 1 Venceu! (%d)\n", Populacao1 > Populacao2);
 printf("Área: Carta 1 venceu!(%d)\n", Area1 > Area2);
 printf("PIB: Carta 1 Venceu!(%d)\n", PIB1 > PIB2);
 printf("Pontos Turísticos: Carta 1 Venceu!(%d)\n", PontosTuristicos1 > PontosTuristicos2);
-printf("Densidade populacional: Carta 2 Venceu!(%d)\n", Densidade1 < Densidade2);
+printf("Densidade populacional: Carta 2 Venceu!(%d)\n", Densidade2 < Densidade1);
 printf("PIB per capita: Carta 1 venceu (%d)\n", PIBpercapita1 > PIBpercapita2);
 printf("Super poder: Carta 1 Venceu!(%d)\n", SuperPoder1 > SuperPoder2);
 
